@@ -18,8 +18,12 @@ const MainInfo = () => {
                         <a href="https://www.linkedin.com/in/brent-ahrens-137545144/"><p className="social-link">LinkedIn</p></a>
                     </div>
                 </div>
-                <img className="picture-main" src="https://i.imgur.com/px1gbho.jpg" alt="profile"/>
-                <p className="skills-text">Skills - React | Node.js | MongoDB | Python | JavaScript | CSS3 | SASS | HTML5 | Firebase | Socket io | jQuery | Git | Restful Routes</p>
+                <img className="picture-main" src="https://i.imgur.com/jYmRK6b.jpg" alt="profile"/>
+                <div className="flex-skills">
+                <h2 className="skills-header-main">Skills</h2>
+                <hr/>
+                <p className="skills-text">React | Node.js | MongoDB | Python | JavaScript | CSS3 | SASS | HTML5 | Firebase | Socket io | jQuery | Git | Restful Routes</p>
+                </div>
             </div>
         </div>
     )

@@ -12,6 +12,14 @@ main-container {
     flex-wrap: wrap;
 }
 
+.skills-header-main {
+    margin-bottom: 0; 
+    text-align: center;
+}
+
+hr {
+    width: 80%; 
+}
 .name-main {
     margin-top: 6rem; 
     text-transform: uppercase; 
