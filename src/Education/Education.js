@@ -9,7 +9,7 @@ const Education = () => {
             <img className="education-background-image" src="https://i.imgur.com/TAqvGVp.jpg" alt="education"/>
             <div className="cards__item">
                 <div className="card">
-                    <img className="card__image card__image--fence" alt="eventimg" src="https://i.imgur.com/a98Uzni.png"/>
+                    <img className="card__image card__image--fence" alt="eventimg" src="http://static-assets.generalassemb.ly/logos/generalassembly-open-graph.png"/>
                     <div className="card__content">
                         <div className="showcard-bottom">
                             <div className="card__title">General Assembly - Web Development Immersive</div>
@@ -27,7 +27,7 @@ const Education = () => {
             </div>
             <div className="cards__item2">
                 <div className="card">
-                    <img className="card__image card__image--fence" alt="eventimg" src="https://i.imgur.com/rGXKJqj.png"/>
+                    <img className="card__image card__image--fence" alt="eventimg" src="http://www.musicconnection.com/wp-content/uploads/2014/01/cras1.jpg"/>
                     <div className="card__content">
                         <div className="showcard-bottom">
                             <div className="card__title">Conservatory of Recording Arts and Sciences</div>
