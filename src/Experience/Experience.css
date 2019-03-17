@@ -211,3 +211,9 @@
   .ave_back {
     background: url("https://i.imgur.com/HTXuv7e.jpg");
   }
+
+  @media screen and (max-height: 740px) {
+    .experience-container {
+      margin-top: 22rem; 
+    }
+  }

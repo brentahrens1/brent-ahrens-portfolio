@@ -115,6 +115,10 @@ hr {
         display: none; 
     }
 
+    .skills-header-main {
+        margin-left: 4rem; 
+    }
+
     .email-main {
         top: 20rem; 
         font-size: .8rem; 
