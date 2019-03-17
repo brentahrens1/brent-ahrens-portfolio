@@ -1,0 +1,254 @@
+main-container {
+    height: 100vh; 
+    width: 100vw; 
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.picture-info-flex {
+    display: flex; 
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+}
+
+.name-main {
+    margin-top: 6rem; 
+    text-transform: uppercase; 
+    font-size: 4rem; 
+    margin-bottom: .8rem; 
+}
+
+.info-flex {
+    display: flex; 
+    flex-direction: column; 
+    margin-left: 1rem; 
+}
+
+.skills-text {
+    font-size: 1.1rem; 
+    margin-top: 2rem; 
+}
+
+.picture-main {
+    width: 100%; 
+    height:80vh; 
+}
+
+.description-main {
+    width: 25rem; 
+    margin-left: .5rem; 
+    top: 13rem;
+    position: absolute;
+    left: 4rem;
+    color: #fff; 
+}
+
+.phone-main{
+    margin-top: 0; 
+    margin-left: 8rem; 
+    position: absolute;
+    top: 23rem;
+    left: 1.8rem;
+    color: #fff; 
+}
+
+.location-main {
+    margin-top: 0; 
+    margin-left: 8rem; 
+    position: absolute;
+    top: 25rem;
+    left: 3rem;
+    color: #fff; 
+}
+
+.email-main {
+    margin-left: 5rem; 
+    position: absolute;
+    top: 20rem;
+    left: 1.6rem;
+    color: #fff; 
+}
+
+.logo-main-flex {
+    display: flex; 
+    position: absolute;
+    bottom: 20rem;
+    left: 10.8rem;
+}
+
+.social-link {
+    color: #fff; 
+    margin-right: .5rem; 
+    text-decoration: underline; 
+}
+
+.name-main {
+    margin-left: 5rem; 
+    position: absolute;
+    top: 2rem;
+    left: 0px;
+    color: #fff; 
+    text-transform: none; 
+}
+
+
+@media screen and (max-width: 1024px) {
+    .picture-main {
+        width: 144%;
+        height: 16rem;
+    }
+
+    .name-main {
+        display: none; 
+    }
+
+    .description-main {
+        display: none; 
+    }
+
+    .email-main {
+        top: 20rem; 
+        font-size: .8rem; 
+        color: #000; 
+        text-align: center; 
+    }
+
+    .phone-main {
+        font-size: .8rem;
+        color: #000; 
+        text-align: center; 
+        top: 22.3rem; 
+    }
+
+    .location-main {
+        font-size: .8rem;
+        color: #000; 
+        text-align: center; 
+        top: 24rem; 
+    }
+
+    .social-link {
+        display: none; 
+    }
+
+    .skills-text {
+        font-size: .9rem;
+        margin-top: 8rem;
+        text-align: center; 
+        margin-left: 1rem; 
+        margin-bottom: 0;
+    }
+}
+
+
+
+
+
+  /* @media screen and (max-width: 320px) {
+
+    .name-main {
+        text-align: center;  
+    }
+      .description-main {
+          width: 19rem; 
+          text-align: center; 
+          margin-left: 2rem; 
+      }
+
+      .title-main {
+          margin-left: 0rem; 
+          text-align: center; 
+          margin-bottom: .5rem; 
+      }
+
+      .picture-main {
+          width: 100%; 
+          height: 18rem; 
+          margin-top: .5rem; 
+      }
+
+      .phone-main{
+        margin-top: 0; 
+        text-align: center; 
+        margin-left: 0; 
+        
+      }
+    
+        .email-main {
+        text-align: center; 
+        margin-left: 0;
+      }
+
+      .logo-main-flex {
+        margin-left: 8rem; 
+    }
+  } */
+
+/* 
+  @media screen and (max-width: 375px) {
+
+    .name-main {
+        text-align: center;  
+    }
+      .description-main {
+          width: 19rem; 
+          text-align: center; 
+          margin-left: 2rem; 
+      }
+
+      .title-main {
+          margin-left: 0rem; 
+          text-align: center; 
+          margin-bottom: .5rem; 
+      }
+
+      .picture-main {
+          width: 100%; 
+          height: 18rem; 
+          margin-top: .5rem; 
+      }
+
+      .phone-main{
+        margin-top: 0; 
+        text-align: center; 
+        margin-left: 0; 
+        
+      }
+    
+        .email-main {
+        text-align: center; 
+        margin-left: 0;
+      }
+
+      .logo-main-flex {
+        margin-left: 8rem; 
+    }
+  } */
+/* 
+  @media screen and (max-width: 760px) {
+    .picture-main {
+        height: 28rem; 
+    }
+
+    .logo-main-flex {
+        margin-left: 11rem; 
+    }
+
+    .description-main {
+        width: 23rem; 
+        text-align: center; 
+        margin-left: 3rem; 
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .picture-main {
+        height: 38rem; 
+    }
+  }
+ */
+
+
+
+  

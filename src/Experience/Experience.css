@@ -1,0 +1,213 @@
+.experience-container {
+    height: 130vh;
+    width: 100vw; 
+}
+
+.experince-background-image {
+    width: 100%; 
+    height:80vh; 
+    margin-top: 4rem; 
+}
+
+.card-container {
+    margin-top: 4rem; 
+}
+
+.link {
+    display: block;
+    text-align: center;
+    color: #777;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .job_card {
+    position: relative;
+    display: block;
+    width: 800px;
+    height: 350px;
+    margin: 80px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.4s;
+    box-shadow: 0px 0px 120px -25px rgba(0, 0, 0, 0.5);
+    margin-top: 2rem; 
+  }
+
+  .job_card:hover {
+    -webkit-transform: scale(1.02);
+            transform: scale(1.02);
+    box-shadow: 0px 0px 80px -25px rgba(0, 0, 0, 0.5);
+    transition: all 0.4s;
+  }
+
+  .job_card .info_section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-blend-mode: multiply;
+    z-index: 2;
+    border-radius: 10px;
+  }
+
+  .job_card .info_section .job_header {
+    position: relative;
+    padding: 25px;
+    height: 40%;
+  }
+
+  .job_card .info_section .job_header h1 {
+    color: black;
+    font-weight: 400;
+  }
+
+  .job_card .info_section .job_header h4 {
+    color: #555;
+    font-weight: 400;
+  }
+
+  .job_card .info_section .job_header .minutes {
+    display: inline-block;
+    margin-top: 15px;
+    color: #555;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+  }
+
+  .job_card .info_section .job_header .type {
+    display: inline-block;
+    color: #959595;
+    margin-left: 10px;
+  }
+
+  .job_card .info_section .job_header .locandina {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    height: 120px;
+    box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.5);
+  }
+
+  .job_card .info_section .job_desc {
+    padding: 25px;
+    height: 50%;
+  }
+
+  .job_card .info_section .job_desc .text {
+    color: #545454;
+  }
+
+  .job_card .info_section .job_social {
+    height: 10%;
+    padding-left: 15px;
+    padding-bottom: 20px;
+  }
+
+  .job_card .info_section .job_social ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .job_card .info_section .job_social ul li {
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.3);
+    transition: color 0.3s;
+    transition-delay: 0.15s;
+    margin: 0 10px;
+  }
+
+  .job_card .info_section .job_social ul li:hover {
+    transition: color 0.3s;
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  .job_card .info_section .job_social ul li i {
+    font-size: 19px;
+    cursor: pointer;
+  }
+
+  .job_card .blur_back {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    right: 0;
+    background-size: cover;
+    border-radius: 11px;
+  }
+
+  .text {
+      font-size: .8rem; 
+  }
+
+  .experience-header {
+      font-size: 3rem; 
+      text-align: center; 
+      margin-bottom: 0; 
+      color: #000; 
+      margin-right: 3rem; 
+      text-transform: uppercase; 
+  }
+  
+  @media screen and (min-width: 768px) {
+    .job_header {
+      width: 65%;
+    }
+  
+    .job_desc {
+      width: 50%;
+    }
+  
+    .info_section {
+      background: linear-gradient(to right, #e5e6e6 50%, transparent 100%);
+    }
+  
+    .blur_back {
+      width: 80%;
+      background-position: -100% 10% !important;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .job_card {
+      width: 95%;
+      margin: 70px auto;
+      min-height: 350px;
+      height: auto;
+    }
+
+    .experience-container {
+      margin-left: 3rem;
+      margin-top: 12rem;
+    }
+
+    hr {
+      display:none; 
+    }
+  
+    .blur_back {
+      width: 100%;
+      background-position: 50% 50% !important;
+    }
+  
+    .job_header {
+      width: 100%;
+      margin-top: 85px;
+    }
+  
+    .job_desc {
+      width: 100%;
+    }
+  
+    .info_section {
+      background: linear-gradient(to top, #e5e6e6 50%, transparent 100%);
+      display: inline-grid;
+    }
+  }
+  .bright_back {
+    background: url("https://i.imgur.com/rSSgceJ.jpg");
+  }
+  
+  .ave_back {
+    background: url("https://i.imgur.com/HTXuv7e.jpg");
+  }

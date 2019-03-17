@@ -1,0 +1,44 @@
+.selector-container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: left; 
+    justify-content: center; 
+}
+
+.selector-container button {
+    height: 4rem;
+    width: 15rem;
+    margin-top: 1rem; 
+    margin-left: 1rem; 
+    border: .1rem solid #000; 
+    border-radius: .2rem; 
+    outline: none; 
+    font-size: 1rem; 
+}
+
+.selector-container button:hover {
+    color: #fff; 
+    background-color: #B6C4C7; 
+    transform: translateY(-.3rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.selector-container button:active {
+    transform: translateY(-.1rem);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); 
+}
+
+@media screen and (max-width: 1024px) {
+    .selector-container button {
+        height: 2rem; 
+        width: 4.5rem; 
+        font-size: .5rem; 
+    }
+
+    .selector-container {
+        margin-top: 5rem; 
+        margin-right: 1rem; 
+        flex-direction: row; 
+        flex-wrap: wrap;
+    }
+}

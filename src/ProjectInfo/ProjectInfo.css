@@ -1,0 +1,67 @@
+.project-info-container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.social-btn {
+    width: 5rem; 
+    height: 3rem; 
+    margin-left: .5rem; 
+    background-color: #fff; 
+    border-radius: .5rem; 
+    font-size: 1rem; 
+    border: .1rem solid #000; 
+    outline: none; 
+}
+
+.social-btn:hover { 
+    transform: translateY(-.3rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.social-btn:active {
+    transform: translateY(-.1rem);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); 
+}
+
+p.Free.LA {
+    width: 20rem; 
+}
+
+h4.Free.LA {
+    width: 20rem; 
+}
+
+p.Kick.It {
+    width: 20rem; 
+}
+
+h4.Kick.It {
+    width: 20rem; 
+}
+
+p.Green.Spot {
+    width: 20rem; 
+}
+
+h4.Green.Spot {
+    width: 20rem; 
+}
+
+p.Opening.Act {
+    width: 20rem; 
+}
+
+h4.Opening.Act {
+    width: 20rem; 
+}
+
+p.Rock.The.Red {
+    width: 20rem; 
+}
+
+h4.Rock.The.Red {
+    width: 20rem; 
+}

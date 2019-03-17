@@ -1,0 +1,44 @@
+img.Free.LA {
+    width: 30rem; 
+    height: 20rem; 
+}
+
+img.Kick.It {
+    width: 30rem; 
+    height: 20rem; 
+}
+
+img.Green.Spot {
+    width: 30rem; 
+    height: 20rem; 
+}
+
+img.Opening.Act {
+    width: 30rem; 
+    height: 20rem; 
+}
+
+img.Rock.The.Red {
+    width: 30rem; 
+    height: 20rem; 
+}
+
+.show-project-container {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.projects-header {
+    font-size: 3rem; 
+    margin-top: -3rem; 
+    text-transform: uppercase; 
+}
+
+
+@media screen and (max-width: 1024px) {
+    .show-project-container {
+        margin-top: 4rem; 
+    }
+}
