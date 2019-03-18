@@ -16,17 +16,18 @@
     font-size: 1rem; 
 }
 
+
 .selector-container button:hover {
     color: #fff; 
     background-color: #B6C4C7; 
-    transform: translateY(-.3rem);
+    /* transform: translateY(-.3rem); */
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-}
+} 
 
-.selector-container button:active {
+/* .selector-container button:active {
     transform: translateY(-.1rem);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); 
-}
+}  */
 
 @media screen and (max-width: 1024px) {
     .selector-container button {
