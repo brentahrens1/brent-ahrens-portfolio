@@ -27,7 +27,7 @@ const Experience = () => {
           <div class="job_card" id="ave">
             <div class="info_section">
               <div class="job_header">
-                <img class="locandina" src="https://media.glassdoor.com/sqll/876929/ace-hotel-squarelogo-1443074314802.png"/>
+                <img class="locandina" src="https://media.glassdoor.com/sqll/876929/ace-hotel-squarelogo-1443074314802.png" alt="experience"/>
                 <h1>ACE Hotel NYC</h1>
                 <h4>Guest Service Agent</h4>
               </div>
