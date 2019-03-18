@@ -22,7 +22,7 @@ const MainInfo = () => {
                 <div className="flex-skills">
                 <h2 className="skills-header-main">Skills</h2>
                 <hr/>
-                <p className="skills-text">React | Node.js | MongoDB | Python | JavaScript | CSS3 | SASS | HTML5 | Firebase | Socket io | jQuery | Git | Restful Routes</p>
+                <p className="skills-text">React | Node.js | MongoDB | Python | JavaScript | CSS3 | SASS | HTML5 | Firebase | Socket io | jQuery | Git | Restful Routes | SQL | noSQL</p>
                 </div>
             </div>
         </div>

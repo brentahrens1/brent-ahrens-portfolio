@@ -1,5 +1,5 @@
 .nav-container  {
-    background-color: #F79E5F; 
+    background-color: #E3D6C8; 
     width: 100%; 
     display: flex;
     flex-direction: row;
@@ -18,8 +18,9 @@
     list-style-type: none;
     margin-bottom: 0; 
     margin-top: 0;  
-    background-color: #F79E5F; 
+    background-color: #E3D6C8; 
     color: #000; 
+
 }
 
 .list-item {
