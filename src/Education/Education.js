@@ -8,7 +8,7 @@ const Education = () => {
             <img className="education-background-image" src="https://i.imgur.com/TAqvGVp.jpg" alt="education"/>
             <div className="cards__item">
                 <div className="card">
-                    <img className="card__image card__image--fence" alt="eventimg" src="https://static-assets.generalassemb.ly/logos/generalassembly-open-graph.png"/>
+                    <img className="card__image card__image--fence" alt="eventimg" src="https://cdn.greenhouse.io/external_greenhouse_job_boards/logos/000/000/170/original/GALogoForGreenhouse.png?1448035888"/>
                     <div className="card__content">
                         <div className="showcard-bottom">
                             <div className="card__title">General Assembly - Web Development Immersive</div>

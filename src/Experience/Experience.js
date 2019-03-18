@@ -9,7 +9,7 @@ const Experience = () => {
           <div class="job_card" id="bright">
             <div class="info_section">
               <div class="job_header">
-                <img class="locandina" src="https://iyftc1oqf704bytwz45ub151.wpengine.netdna-cdn.com/wp-content/uploads/2014/05/BeastieBoys_ChungKing_HipHop.jpg" alt="experience"/>
+                <img class="locandina" src="https://fastly.4sqi.net/img/general/600x600/1811389_zOR9HEnTW1L9RUu0lEVefp75VRUIXzvGWjWolkHRgXg.jpg" alt="experience"/>
                 <h1>Chung King Studios</h1>
                 <h4>Assistant Engineer/Engineer/Operations Manager</h4>
               </div>
